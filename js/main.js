@@ -45,6 +45,64 @@ while (contadora >=0){
     alert(count)
 }
 */
+/*
 var d = new Date;
 alert(d.getDay())
 alert(d.getMinutes())
+*/
+/*
+function soma(n1,n2){
+    return n1+n2;
+}
+alert(soma(4,10))
+*/
+/*
+function subs(frase,nome,novo_nome){
+    return frase.replace(nome, novo_nome)
+}
+alert(subs("Aeeew Brasil","Brasil","Italia"))
+*/
+/*
+function validaridade(idade){
+    var validador
+    if(idade>=18){
+        
+        validador = true
+    }else{
+        validador = false
+    }
+    return validador
+}
+var idade = prompt("Qual é a sua idade meu jovem ?: ")
+console.log (validaridade(idade))
+*/
+
+function clicado(){
+    //alert("Muito obrigador pelo click!");
+    document.getElementById("posclick").innerHTML = "Aulas de JS!";
+    console.log(document.getElementById("posclick"));
+
+
+}
+
+function redirecionar(){
+    window.open("https://brorlandi.github.io/git-desfazendo-commits");
+    //window.location.href = "https://brorlandi.github.io/git-desfazendo-commits";
+}
+function trocar(elemento){
+    elemento.innerHTML = "Oloco bixo!";
+   // document.getElementById("mousemove").innerHTML = "Oloco bixo";
+}
+
+function destrocar(elemento){
+    elemento.innerHTML = "Olha isso";
+    //document.getElementById("mousemove").innerHTML = "Olha isso";
+}
+
+function carregado(){
+    alert("Página carregada!")
+}
+
+function change(elemento){
+    console.log(elemento.value)
+}
