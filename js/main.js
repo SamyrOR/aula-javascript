@@ -81,23 +81,26 @@ function clicado(){
     //alert("Muito obrigador pelo click!");
     document.getElementById("posclick").innerHTML = "Aulas de JS!";
     console.log(document.getElementById("posclick"));
-
-
+    document.getElementById("troca1").innerHTML = "Oloco bixo"
+    document.getElementById("troca2").innerHTML = "Oloco bixo"
 }
+function trocar(elemento){
+    elemento.innerHTML = "Olha isso";
+}
+function destrocar(elemento){
+    elemento.innerHTML = "Oloco bixo";
+}
+
 
 function redirecionar(){
     window.open("https://brorlandi.github.io/git-desfazendo-commits");
     //window.location.href = "https://brorlandi.github.io/git-desfazendo-commits";
 }
-function trocar(elemento){
-    elemento.innerHTML = "Oloco bixo!";
    // document.getElementById("mousemove").innerHTML = "Oloco bixo";
-}
 
-function destrocar(elemento){
-    elemento.innerHTML = "Olha isso";
+
+
     //document.getElementById("mousemove").innerHTML = "Olha isso";
-}
 
 function carregado(){
     alert("Página carregada!")
